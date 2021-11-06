@@ -1,0 +1,42 @@
+body {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.item > p {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#green {
+    background-color: darkcyan;
+}
+
+#blue {
+    background-color: deepskyblue;
+}

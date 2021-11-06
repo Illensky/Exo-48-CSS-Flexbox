@@ -1,0 +1,51 @@
+body {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.green {
+    background-color: darkcyan;
+}
+
+.blue {
+    background-color: deepskyblue;
+}
+
+.item {
+    width: 20%;
+    height: 25px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.item > p {
+    padding-top: 3px;
+    font-size: 1.1rem;
+}
+
+.item:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px){
+
+    #container {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,68 @@
+body {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item {
+    height: 40vh;
+    width: 23vw;
+}
+
+#d1 {
+    background-color: darkcyan;
+}
+
+#d2 {
+    background-color: deepskyblue;
+}
+
+#d3 {
+    background-color: rebeccapurple;
+}
+
+#d4 {
+    background-color: orange;
+}
+
+#d5 {
+    background-color: red;
+}
+
+#d6 {
+    background-color: darkcyan;
+}
+
+#d7 {
+    background-color: deepskyblue;
+}
+
+#d8 {
+    background-color: rebeccapurple;
+}
+
+.item > p {
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
